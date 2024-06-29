@@ -26,7 +26,7 @@ KillSub():
     - Stops sending current to the Relay, cutting off power to the Thrusters
 
 
-# PCB
+# PCB:
 * The PCB shows the 1) MCU, HE Sensor, Power, etc., and 2) The Relays, Power, and Switches Module
 * The MCU can turn on and off all of the relays at once, which are each connected to a NPN Transistor Relay Switch Circuit.
 
