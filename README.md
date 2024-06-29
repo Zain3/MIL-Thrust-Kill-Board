@@ -1,7 +1,7 @@
 # MIL-Thrust-Kill-Board
-Description: This board receives CAN messages from NaviGator's on-board computer to 1) Control thrust to the T200 thrusters on-board, and 2) If it doesn't receive a periodic heartbeat from the computer, it'll also shut off the thrusters, klling the sub.
+**Description**: This board receives CAN messages from NaviGator's on-board computer to 1) Control thrust to the T200 thrusters on-board, and 2) If it doesn't receive a periodic heartbeat from the computer, it'll also shut off the thrusters, klling the sub.
 
-Longer Description: The Purpose of this board is to receive CAN messages computer on-board NaviGator, where software wants to send thrust commands to the T200 Thrusters on-board.
+**Longer Description**: The Purpose of this board is to receive CAN messages computer on-board NaviGator, where software wants to send thrust commands to the T200 Thrusters on-board.
 This "Thrust Kill Board" can thus control ESC's connected to the thrusters to control thrust, or a HES can be pressed, which can manually turn on and off the thrusters to the submarine, shutting them down.
 Finally, this board expects a "heartbeat" CAN message from the computer- if it doesn't receive it on time, it'll cut power to the thrusters, by turning off a relay.
 
